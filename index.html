@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KI. Mit Verstand. – Helmut Römer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2F3A44;
+      --text: #1F2933;
+      --muted: #82878C;
+      --bg: #FFFFFF;
+      --bg-soft: #F2F4F6;
+      --accent: #6F8F7A;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Source Serif 4', serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 96px 24px;
+    }
+
+    h1, h2, h3 {
+      font-weight: 500;
+      color: var(--primary);
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      line-height: 1.3;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 24px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .section-alt {
+      background: var(--bg-soft);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    .list {
+      padding-left: 18px;
+    }
+
+    .list li {
+      margin-bottom: 8px;
+    }
+
+    .principle {
+      margin-bottom: 32px;
+    }
+
+    .cta {
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--primary);
+      text-decoration: none;
+      border-bottom: 1px solid var(--primary);
+      padding-bottom: 2px;
+    }
+
+    details {
+      margin-top: 24px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 500;
+      color: var(--primary);
+    }
+
+    footer {
+      padding: 48px 24px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 768px) {
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+
+      .container {
+        padding: 64px 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="container">
+    <h1>Viele manuelle Prozesse.<br>Hohe Verantwortung.<br>Und die Frage, wie KI wirklich helfen kann?</h1>
+    <p>
+      Ich unterstütze Fachabteilungen und Verantwortliche dabei, Prozesse zu vereinfachen, manuelle Arbeit zu reduzieren
+      und KI sinnvoll einzusetzen – strukturiert, nachvollziehbar und angepasst an bestehende Systeme.
+    </p>
+    <p class="muted">Kein Hype. Keine Schnellschüsse. Sondern Lösungen, die erklärbar sind und im Alltag tragen.</p>
+  </section>
+
+  <!-- FÜR WEN -->
+  <section class="container section-alt">
+    <div class="two-col">
+      <div>
+        <h3>Geeignet für</h3>
+        <ul class="list">
+          <li>Verantwortliche Fachbereiche mit klarer Ergebnisverantwortung</li>
+          <li>Organisationen mit gewachsenen, stabilitätskritischen Systemen</li>
+          <li>Umgebungen, in denen Nachvollziehbarkeit entscheidend ist</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Weniger geeignet für</h3>
+        <ul class="list">
+          <li>rein experimentelle Vorhaben ohne Zielklarheit</li>
+          <li>technologiegetriebene Projekte ohne Prozessverständnis</li>
+          <li>Automatisierung um jeden Preis</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUTZEN -->
+  <section class="container">
+    <h2>Wie ich arbeite – und was sich für Sie konkret verbessert</h2>
+    <p>Das Ergebnis ist kein radikaler Umbruch, sondern spürbare Entlastung im Alltag:</p>
+    <ul class="list">
+      <li>klarere, stabilere Prozesse</li>
+      <li>weniger manuelle Routinen</li>
+      <li>mehr Ruhe und Fokus im Team</li>
+      <li>KI als verständliches Werkzeug, nicht als Black Box</li>
+    </ul>
+  </section>
+
+  <!-- PRINZIPIEN -->
+  <section class="container section-alt">
+    <h2>Wie die Lösung im Detail entsteht</h2>
+
+    <div class="principle">
+      <h3>Prozess vor Technologie</h3>
+      <p class="muted">Erst verstehen, dann automatisieren – nicht umgekehrt.</p>
+    </div>
+
+    <div class="principle">
+      <h3>Nachvollziehbarkeit statt Black Box</h3>
+      <p class="muted">Entscheidungen bleiben erklärbar und dokumentiert.</p>
+    </div>
+
+    <div class="principle">
+      <h3>Schrittweise Umsetzung</h3>
+      <p class="muted">Überschaubare Schritte statt riskanter Umbrüche.</p>
+    </div>
+
+    <div class="principle">
+      <h3>Verantwortung bleibt beim Menschen</h3>
+      <p class="muted">Technik unterstützt – sie ersetzt kein Urteil.</p>
+    </div>
+  </section>
+
+  <!-- ÜBER MICH -->
+  <section class="container">
+    <h2>Über mich</h2>
+    <p>
+      Ich arbeite seit vielen Jahren an der Schnittstelle von Fachbereichen, Prozessen und IT – vor allem dort,
+      wo Verantwortung, Stabilität und Nachvollziehbarkeit entscheidend sind.
+    </p>
+
+    <details>
+      <summary>Mehr über meine Arbeitsweise</summary>
+      <p>
+        Mich interessiert nicht nur die Technik, sondern das Zusammenspiel aus Struktur, Verantwortung
+        und Alltagstauglichkeit. KI ist für mich ein Werkzeug, um Komplexität zu reduzieren – nicht um neue
+        Abhängigkeiten zu schaffen.
+      </p>
+    </details>
+
+    <div class="cta">
+      <strong>Nächster Schritt</strong>
+      <p class="muted">Ein kurzer Überblick darüber, wie eine Zusammenarbeit typischerweise abläuft.</p>
+      <a href="#">Vorgehen kennenlernen</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    Helmut Römer · KI. Mit Verstand.
+  </footer>
+
+</body>
+</html>
